@@ -163,7 +163,7 @@ Learning steps
 
 	Branches are pointers to commits
 	switching the branch will reset the working directory to the state of the directory at the relevant pointer location
-	-> there is always ever 1 working directory! 
+	-> there is always ever one single working directory! 
 	
 	switching branches simply means moving the head pointer around.
 
@@ -180,4 +180,22 @@ Learning steps
 	
 	Stashes are changes saved on, but not yet commited to a specific branch
 	=> what I need to know is: if I wrote changes to the wrong branch, how can I apply them to a new branch? 
+	
+==========
+GIT MERGES
+==========
+
+fast-forward merges
+	- work when only one branch has changes
+	- default when the commit is just in front. 
+	- fast forward merge can be manually disabled! 
+	- no ff makes history look less linear
+	- no ff allows for easier feature reversion
+	 
+3-way-merges
+	- works when both the branches underwent changes, merge is based on last common point, and the tips of each branch.
+	
+Created an extra branch from branch.
+
+Create and switch to branch with switch -C branchname.
 
