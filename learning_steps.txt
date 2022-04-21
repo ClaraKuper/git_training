@@ -56,5 +56,18 @@ Learning steps
 	
 	Not really recommended.
 	
+	==============
+	DELETING FILES
+	==============
+	
+	git ls-files show files in staging area
+	git rm removes files from working directory and staging areas simultaneously
+	
+	============
+	RENAME FILES
+	============
+	
+	renaming is a double-step operation -> deleting the old file, and adding a new file. 
+	both changes need to be staged and committed! 
 	
 	
