@@ -34,4 +34,10 @@ Learning steps
 	commiting does NOT clean the staging area! 
 	
 	changes in local folder will not yet be in staging.
+	each commit has a id
+	- what was changed
+	- who changed
+	- full project content! BUT compressed, and NO duplicates
+	
+	commits without messages will open default editor to add messages.
 	
