@@ -70,4 +70,7 @@ Learning steps
 	renaming is a double-step operation -> deleting the old file, and adding a new file. 
 	both changes need to be staged and committed! 
 	
+	*********************************************************
+	* When renaming, make sure the renamed files isn't open *
+	*********************************************************
 	
