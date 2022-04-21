@@ -74,3 +74,18 @@ Learning steps
 	* When renaming, make sure the renamed files isn't open *
 	*********************************************************
 	
+	=======================================
+	REMOVE FILES THAT ARE STAGED AS COMMITS
+	=======================================
+	
+	after adding files or folders to staging, we cannot untrack them with adding them to .gitignore!
+	remove them from staging first with git rm --cached filename
+	add folder/file to git 
+	
+	================
+	SHORT GIT OUTPUT
+	================
+	
+	git status -s
+	"M" (red, right column) - changes in the file in working directory
+	"M" (green, left column) - changes in the file in staging area
