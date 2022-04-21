@@ -175,7 +175,15 @@ GIT MERGES
 
 fast-forward merges
 	- work when only one branch has changes
+	- default when the commit is just in front. 
+	- fast forward merge can be manually disabled! 
+	- no ff makes history look less linear
+	- no ff allows for easier feature reversion
+	 
 3-way-merges
 	- works when both the branches underwent changes, merge is based on last common point, and the tips of each branch.
 	
 Created an extra branch from branch.
+
+Create and switch to branch with switch -C branchname.
+
