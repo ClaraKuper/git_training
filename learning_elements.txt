@@ -163,8 +163,8 @@ Learning steps
 
 	Branches are pointers to commits
 	switching the branch will reset the working directory to the state of the directory at the relevant pointer location
-	-> there is always ever 1 working directory! 
+	-> there is always ever one single working directory! 
 	
-	switching branches simply means moving the head pointer around.
+	Switching branches simply means moving the head pointer around.
 	
-	This line will be deleted.
+	"Switch" = "Checkout" 
