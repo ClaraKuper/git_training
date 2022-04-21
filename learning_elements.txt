@@ -199,3 +199,20 @@ Created an extra branch from branch.
 
 Create and switch to branch with switch -C branchname.
 
+=====================
+MERGING BEST PRACTICE
+=====================
+
+Delete the branch right after it was merged. 
+Give branches meaningful names
+check: git branch --merges -> shows all merged branches (safe to delete)
+check: git branch --no-merged -> shows all non-merged branches (unsafe to delete!)
+
+
+=================
+MERGING CONFLICTS
+=================
+
+Best manually.
+
+
