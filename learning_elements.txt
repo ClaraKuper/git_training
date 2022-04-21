@@ -177,3 +177,5 @@ fast-forward merges
 	- work when only one branch has changes
 3-way-merges
 	- works when both the branches underwent changes, merge is based on last common point, and the tips of each branch.
+	
+Created an extra branch from branch.
