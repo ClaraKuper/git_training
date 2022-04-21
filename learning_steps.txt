@@ -1,0 +1,10 @@
+Learning steps
+
+- tutorial https://www.youtube.com/watch?v=8JJ101D3knE
+	- What is git: version control system
+	- Track history, work together
+	- centralized vs. distributed version control systems (central server vs. individual copies)
+	
+	- command line git (fast), gui (also nice)
+	- configuring git, set name, mail, default editor
+	- set default editor - editor added to global path, git config --global -core.editot "name --wait"
