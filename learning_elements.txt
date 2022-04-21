@@ -168,5 +168,3 @@ Learning steps
 	switching branches simply means moving the head pointer around.
 	
 	This line will be deleted.
-	
-	
