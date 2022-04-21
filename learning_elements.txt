@@ -89,3 +89,68 @@ Learning steps
 	git status -s
 	"M" (red, right column) - changes in the file in working directory
 	"M" (green, left column) - changes in the file in staging area
+	
+	"?" - not tracked
+	"A" - added
+	"D" - deleted?
+	
+	
+	========================================
+	SHOW GIT DIFF BETWEEN STAGES AND VERSION
+	========================================
+	
+	git diff --staged
+	shows changes between staging area and last commit
+	--- old copy
+	+++ new copy (in staging)
+	git shows batches of code, never the full thing.
+	
+	
+	git diff 
+	shows changes between working directory and staging area
+	
+	
+	=======
+	HISTORY
+	=======
+	
+	git log shows commit history
+	git log --oneline shows all commits in one line
+	git log --oneline --reverse shows first commit first
+	
+	========================
+	SHOWING SPECIFIC COMMITS
+	========================
+	
+	git show character identifier
+	git show HEAD
+	git show HEAD~number go back number steps from HEAD
+	git show HEAD~1:full_path_to_dir shows the full file rather than just changes
+	
+	=======
+	ls-tree
+	=======
+	
+	git ls-tree commit shows which files or dirs were there
+	
+	===========
+	GIT OBJECTS
+	===========
+	
+	commits
+	blobs (files)
+	trees (dirs)
+	tags
+	
+	===============
+	UNSTAGE COMMITS
+	===============
+	
+	git restore/ git reset
+	
+	git restore --staged takes the last copy from the project (last commit) and puts it into the staging area.
+	this essentially undoes all staged changes.
+	
+	git restore undoes the local changes.
+	
+	
