@@ -168,3 +168,7 @@ Learning steps
 	Switching branches simply means moving the head pointer around.
 	
 	"Switch" = "Checkout" 
+	
+==========
+GIT MERGES
+==========
