@@ -166,5 +166,18 @@ Learning steps
 	-> there is always ever 1 working directory! 
 	
 	switching branches simply means moving the head pointer around.
+
+	"Switch" = "Checkout" 
 	
-	This line will be deleted.
+	git log branch1..branch2 [--oneline] lists all commits that are in one, but not in another branch
+	git diff branch1..branch2 OR
+	git diff (implicit current branch) branch2
+	
+	
+	========
+	STASHING
+	========
+	
+	Stashes are changes saved on, but not yet commited to a specific branch
+	=> what I need to know is: if I wrote changes to the wrong branch, how can I apply them to a new branch? 
+
