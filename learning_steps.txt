@@ -8,3 +8,30 @@ Learning steps
 	- command line git (fast), gui (also nice)
 	- configuring git, set name, mail, default editor
 	- set default editor - editor added to global path, git config --global -core.editot "name --wait"
+	- end of line setting to imput for mac and linux, set to true for windows
+	
+	- https://git-scm.com/docs/ is the git documentation.
+	- git "command" --help = long help documentation
+	- git "commanf" -h = short help documentation
+	
+	=========
+	SNAPSHOTS
+	=========
+	
+	git folder is hidden in directory, can be shown with flag -a
+	.git folder has all the history and should not be touched!
+	
+	========
+	WORKFLOW
+	========
+	
+	git repo is a hidden subdirectory in project directory
+	creating a commit = taking a project snapshot
+	staging area/index -> allows for review before commit
+	add file1 file2 to put files into staging
+	REVIEW BEFORE COMMIT 
+	commit with message
+	commiting does NOT clean the staging area! 
+	
+	changes in local folder will not yet be in staging.
+	
