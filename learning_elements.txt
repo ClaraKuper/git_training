@@ -221,5 +221,6 @@ WORKING WITH REMOTE
 ===================
 
 Push a test branch to remote.
+Switch the branch before you commit this new thing.
 
 
