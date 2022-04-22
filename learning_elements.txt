@@ -226,3 +226,5 @@ Switch the branch before you commit this new thing.
 Testing branches and subbranches in repo 
 - create a level 1 branch (analogously to dev) -> add -> commit
 
+- create level 2 branch (analogously to specific features) -> add -> commit
+
