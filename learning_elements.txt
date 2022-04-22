@@ -180,6 +180,7 @@ Learning steps
 	
 	Stashes are changes saved on, but not yet commited to a specific branch
 	=> what I need to know is: if I wrote changes to the wrong branch, how can I apply them to a new branch? 
+	Stash them, and apply the stash to another branch! 
 	
 ==========
 GIT MERGES
@@ -214,5 +215,11 @@ MERGING CONFLICTS
 =================
 
 Best manually.
+
+===================
+WORKING WITH REMOTE
+===================
+
+Push a test branch to remote.
 
 
