@@ -228,3 +228,14 @@ Testing branches and subbranches in repo
 
 - create level 2 branch (analogously to specific features) -> add -> commit
 
+
+================================
+UNDOING AN UNWANTED MERGE/COMMIT
+================================
+
+- created dev branch
+- created feature branch from dev
+- changed feature branch
+- accidentally merged feature branch into dev locally
+- created new branch from dev that contained the new features
+
