@@ -241,3 +241,5 @@ UNDOING AN UNWANTED MERGE/COMMIT
 
 -- HERE ARE SOME CHANGES I MADE REMOTELY! --
 
+And now I keep adding stuff even though I don't want the remote changes.
+
