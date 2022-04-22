@@ -223,4 +223,6 @@ WORKING WITH REMOTE
 Push a test branch to remote.
 Switch the branch before you commit this new thing.
 
+Testing branches and subbranches in repo 
+- create a level 1 branch (analogously to dev) -> add -> commit
 
